@@ -47,7 +47,10 @@ class LoginView extends StackedView<LoginViewModel> {
               OutlinedButton(
                   onPressed: viewModel.homePage, child: const Text("Login")),
               TextButton(
-                  onPressed: () {}, child: const Text("Esqueceu sua senha?"))
+                  onPressed: () {}, child: const Text("Esqueceu sua senha?")),
+              TextButton(
+                  onPressed: () {},
+                  child: const Text("Não tem uma conta? Cadastre-se aqui"))
             ],
           ),
         ),
