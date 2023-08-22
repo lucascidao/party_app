@@ -1,3 +1,3 @@
 # party_app
 
-A new Flutter project.
+Aplicativo de indexação de festas e eventos sendo criado em Flutter
