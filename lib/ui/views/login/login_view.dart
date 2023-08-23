@@ -13,7 +13,7 @@ class LoginView extends StackedView<LoginViewModel> {
     Widget? child,
   ) {
     return Scaffold(
-      backgroundColor: Theme.of(context).colorScheme.background,
+      backgroundColor: Colors.white,
       body: Center(
         child: Container(
           margin: const EdgeInsets.only(top: 100),
@@ -25,7 +25,7 @@ class LoginView extends StackedView<LoginViewModel> {
           child: Column(
             children: [
               const Text(
-                "Security Party",
+                "Find Your Party",
                 style: TextStyle(fontWeight: FontWeight.w800, fontSize: 40),
               ),
               const SizedBox(height: 100),

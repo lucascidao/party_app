@@ -113,6 +113,9 @@ class HomeView extends StackedView<HomeViewModel> {
                     ),
                   ),
                 ),
+                verticalSpaceSmall,
+                ElevatedButton(
+                    onPressed: () {}, child: const Text("Ver todos")),
                 verticalSpaceMedium,
                 const Row(
                   children: [
@@ -161,6 +164,9 @@ class HomeView extends StackedView<HomeViewModel> {
                     ),
                   ),
                 ),
+                verticalSpaceSmall,
+                ElevatedButton(
+                    onPressed: () {}, child: const Text("Ver todos")),
                 verticalSpaceSmall
               ],
             ),
